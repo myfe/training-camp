@@ -1,0 +1,37 @@
+html,
+body {
+  height: 100%;
+}
+
+#app {
+  position: relative;
+  height: 100%;
+}
+
+.layout-default {
+  background: #fbfcfe;
+  height: 100%;
+
+  .layout-sider {
+    background: #525a65;
+    color: #fcffff;
+  }
+  .layout-content {
+    color: #3f4752;
+    padding: .4rem .4rem 0;
+
+    & > article > header {
+      margin-bottom: .2rem;
+    }
+  }
+  .layout-breadcrumb {
+    margin-bottom: .4rem;
+  }
+  .layout-footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 1.3rem;
+  }
+}
