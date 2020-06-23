@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "The training camp is for new colleagues who are about to join",
   "scripts": {
-    "dev": "yarn && concurrently 'yarn dev-server' 'yarn dev-client'",
+    "dev": "yarn && concurrently \"yarn dev-server\" \"yarn dev-client\"",
     "dev-server": "cross-env WORKERS=1 node index.js",
     "dev-client": "cross-env NODE_ENV=development webpack-dev-server --config ./config/webpack.dev.js",
     "build": "webpack --config ./config/webpack.config.js",
